@@ -95,7 +95,9 @@
 
 }
 .new_order{
+    width: 100px;
     overflow: hidden;
+     white-space: nowrap;
 }
 
 .menu_item_wrapper {
@@ -191,6 +193,7 @@ a{
 .item_title{
     width: 200px;
     overflow: hidden;
+    white-space: nowrap;
 }
 .user_link { overflow: hidden;}
 .hide{
