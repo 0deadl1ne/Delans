@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script/jq/jq.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+</head>
+
+<body>
+    <div  id="menu" class="left_menu_wrapper">
+        <div class="logo_wrapper">
+            <div class="logo">
+                <img id="logo" src="svg/logo.svg">
+                <div class="logo_subtitle">
+                    Личный кабинет
+                </div>
+            </div>
+        </div>
+        <button id="addNewOrderButton">
+            <div class="button_wrapper">
+            <div class="button_detail"><img  src="svg/button_plus.svg">
+            </div>
+            <div class="new_order"> Новый заказ</div>
+            </div>
+        </button>
+        <div class="menu_items_wrapper">
+            <div class="menu_items">
+                <div class="menu_item_wrapper">
+                    <div class="item">
+                        <div class="item_icon"><img src="svg/orders.svg">
+                        </div>
+                        <span class="item_title">Заказы</span>
+                    </div>
+                </div>
+                <div class="menu_item_wrapper">
+                    <div class="item">
+                        <div class="item_icon">
+                            <img src="svg/calculator.svg">
+                        </div>
+                        <span class="item_title">Калькулятор</span>
+                    </div>
+                </div>
+                <div class="menu_item_wrapper">
+                    <div class="item">
+                        <div class="item_icon">
+                            <img src="svg/report.svg">
+                        </div>
+                        <span class="item_title">Отчетность</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item_wrapper"  onclick="getSmallMenu()">
+                <div class="item">
+                    <div class="item_icon">
+                        <img  id="zoom" src="svg/zoom.svg">
+                    </div>
+                    <span class="item_title">Уменьшить</span>
+                </div>
+            </div>
+        </div>
+        <div class="hr">
+            <svg  height="3" viewBox="0 0 201 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0.5L200 2.5" stroke="#485775" stroke-opacity="0.5" />
+        </div>
+        </svg>
+        <div class="menu_footer">
+            <div class="menu_item_wrapper">
+                <div class="item">
+                    <div class="item_icon">
+                        <img src="svg/exit.svg">
+                    </div>
+                    <span class="item_title">Выход</span>
+                </div>
+            </div>
+            <div class="menu_item_wrapper">
+                <div class="item">
+                    <span class="item_title">+ 7 (495) 230-03-03</span>
+                </div>
+            </div>
+            <div class="links_wrapper">
+                <ul class="user_links">
+                    <li class="user_link"><a href="#">Временные фалы cookie</a></li>
+                    <li class="user_link"><a href="#"> Пользовательское соглашение</a></li>
+                    <li class="user_link"><a href="#">Политика конфиденциальности</a></li>
+                    <li class="user_link"><a href="#"> Все права защищены © 2018 Delans.</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
