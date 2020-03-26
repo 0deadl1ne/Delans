@@ -4,6 +4,7 @@
 }
 
 .left_menu_wrapper {
+    transition: 500ms;
     width: 200px;
     height: 100vh;
     background: linear-gradient(90.57deg, #3C4963 2.04%, #2C364A 97.36%);
@@ -31,6 +32,7 @@
 }
 
 .logo_subtitle {
+    overflow: hidden;
     width: 90%;
     color: #FFFFFF;
     font-family: Roboto, sans-serif;
@@ -44,6 +46,8 @@
 }
 
 #addNewOrderButton {
+    overflow: hidden;
+    transition: 500ms;
     width: 174px;
     height: 34px;
     display: block;
@@ -61,6 +65,8 @@
 }
 
 .button_wrapper {
+    overflow: hidden;
+    transition: 500ms;
     margin: auto;
     width: 135px;
     height: 34px;
@@ -71,6 +77,8 @@
 }
 
 .button_detail {
+    overflow: hidden;
+    transition: 500ms;
     margin-right: 18px;
     line-height: 37px;
 
@@ -78,14 +86,21 @@
 
 
 .menu_items_wrapper {
+    overflow: hidden;
+    transition: 500ms;
     height: 60%;
     width: 200px;
     margin-top: 15px;
     position: relative;
 
 }
+.new_order{
+    overflow: hidden;
+}
 
 .menu_item_wrapper {
+    overflow: hidden;
+    transition: 500ms;
     position: relative;
     width: 100%;
     height: 37px;
@@ -93,6 +108,8 @@
 }
 
 .menu_items {
+    overflow: hidden;
+    transition: 500ms;
     position: relative;
     height: 20%;
     display: flex;
@@ -103,6 +120,8 @@
 }
 
 .item {
+    overflow: hidden;
+    transition: 500ms;
     position: absolute;
     top: 10px;
     right: 0;
@@ -115,6 +134,7 @@
 }
 
 .item_title {
+    overflow: hidden;
     margin-left: 23px;
     font-family: Roboto;
     font-style: normal;
@@ -137,8 +157,13 @@
 .menu_footer .item_title:nth-child(1) {
     margin-left: 0;
 }
-
-a {
+ .links_wrapper{
+    overflow: hidden;
+ }
+a{
+   /* display: block!important;*/
+    width: 200px;
+    overflow: hidden;
     height: 22px;
     text-decoration: none;
     font-family: Roboto;
@@ -153,14 +178,64 @@ a {
 }
 
 .user_links {
+    overflow: hidden;
+    transition: 500ms;
     height: 100px;
-    width: 76%;
+    width: 87%;
     margin: auto;
     list-style-type: none;
-    display: flex;
+   /* display: flex;
     flex-direction: column;
-    align-content: space-between;
+    align-content: space-between;*/
 }
+.item_title{
+    width: 200px;
+    overflow: hidden;
+}
+.user_link { overflow: hidden;}
+.hide{
+    transition: 500ms;
+    width: 45px;    
+
+    
+}
+.hide span, .hide li, .hide .logo_subtitle, .hide a{
+    display: none;
+
+
+}
+.hide .item{
+    transition: 500ms;
+    margin-left: 13px;
+
+}
+.hide .left_menu_wrapper{
+    transition: 500ms;
+    width: 45px;
+}
+.hide #addNewOrderButton, .hide .button_wrapper{
+    transition: 500ms;
+     width: 45px;
+
+}
+.hide .button_detail{
+    margin: 0;
+}
+.hide .hr svg{
+    transition: 500ms;
+    width: 45px;
+}
+#menu > div.menu_footer > div:nth-child(2):hover{
+    background: none;
+    cursor: default;
+}
+.hide .logo{
+    width: 60%;
+}
+.hide a, .hide .item_title{
+    width: 45px;
+}
+
 
 
 
