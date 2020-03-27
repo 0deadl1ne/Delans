@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">  
+  <!--   <link rel="stylesheet" href="css/bootstrap.min.css">  --> 
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
     <script type="text/javascript" src="script/jq/jq.js"></script>
     <script type="text/javascript" src="script/script.js"></script>
@@ -19,6 +19,8 @@
 </head>
 
 <body class="orders-body">
+
+    <div class="left_slide">
     <div id="menu" class="left_menu_wrapper hidden ">
         <div class="logo_wrapper hidden">
             <div class="logo hidden">
@@ -99,6 +101,7 @@
             </div>
         </div>
     </div>
+    </div>
    
 <!-- <p>&nbsp;</p> -->
 
@@ -111,11 +114,12 @@
            <div class="row blocksearch">
         
         <div class="blocksearch-left col-sm">
-          <span>Период:</span>
+          
           <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker">
           <span> — </span>
           <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker2">
-          <a class="bluebutton" style="margin-right: 1rem;">Обновить</a>
+          <div class="bluebutton"> <img class="refresh_button" src="img/refresh.svg"> <a >Обновить</a></div>
+         
         </div>        
         <div class="blocksearch-right col-sm">
         <div class="input-group">
@@ -350,8 +354,12 @@
   <section>
      <div class="row blocksearch">
      <div class="col-sm-6">
-          <a class="bluebutton bluebutton_big" style="margin-right: 1rem;">Печать накладной</a>
-          <a class="bluebutton bluebutton_big" style="margin-right: 1rem;">Печать стикера</a>
+          <div class="bluebutton_big"> <img class="refresh_button" src="img/print.svg"> <a >Печать накладной</a></div>
+         
+        </div>       
+          <div class="bluebutton_big"> <img class="refresh_button" src="img/print_st.svg"> <a >Печать стикера</a></div>
+         
+        </div>       
 </div>
 
      <div class="col-sm-2">
