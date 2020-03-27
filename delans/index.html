@@ -10,12 +10,12 @@
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
     <script type="text/javascript" src="script/jq/jq.js"></script>
     <script type="text/javascript" src="script/script.js"></script>
-    <script src="js/searchtable.js"></script>
+    <script src="script/searchtable.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="script/jquery.mCustomScrollbar.concat.min.js"></script>
 </head>
 
 <body class="orders-body">
@@ -39,7 +39,7 @@
         </button>
         <div class="menu_items_wrapper hidden">
             <div class="menu_items">
-                <div class="menu_item_wrapper hidden">
+                <div class="menu_item_wrapper hidden" onclick="ShowOrders()">
                     <div class="item hidden">
                         <div class="item_icon"><img src="img/orders.svg">
                         </div>
@@ -105,7 +105,7 @@
    
 <!-- <p>&nbsp;</p> -->
 
-<div class="right-side">
+<div class="right-side show">
 
 <div class="orders-container">
   <section>
@@ -118,15 +118,15 @@
           <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker">
           <span> — </span>
           <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker2">
-          <div class="bluebutton"> <img class="refresh_button" src="img/refresh.svg"> <a >Обновить</a></div>
+          <div class="bluebutton"> <div class="button_icon"><img class="refresh_button" src="img/refresh.svg"> </div> <div class="button_title"><a >Обновить</a></div></div>
          
         </div>        
         <div class="blocksearch-right col-sm">
         <div class="input-group">
-          <input type="text" class="form-control input1 input1_last"  placeholder="Поиск по таблице" id="search-text" onkeyup="tableSearch()" style="flex-grow:1;">
-                  <span class="input-group-append">
-            <button  id="clearButton"  class="btn btn-outline-secondary border-left-0 border" type="button">
-                <i class="fa fa-times"></i>
+          <input type="text" class="form-control input1 input1_last"  placeholder="Поиск по таблице" id="search-text" onkeyup="tableSearch()" style="flex-grow:1;">  <i class="fa fa-times"></i>
+                  <!-- <span class="input-group-append"> -->
+           <!--  <button  id="clearButton"  class="btn btn-outline-secondary border-left-0 border" type="button"> -->
+               
             </button>
           </span>
         </div>
@@ -282,7 +282,7 @@
                       </td>
                     </tr>
                 </tr>
-                <tr class="color-r"> 
+               <!--  <tr class="color-r"> 
                     <td class="centermiddle"><input type="checkbox"></td>
                     <td>12.03.2020</td>
                     <td><a onclick="opendesc(this.textContent)">23323S</a></td>
@@ -341,7 +341,7 @@
                       <br>Доставлен - 13.03.2020
                       </td>
                     </tr>
-                </tr>
+                </tr> -->
 
 
 
@@ -353,42 +353,47 @@
   <!-- //table -->
   <section>
      <div class="row blocksearch">
-     <div class="col-sm-6">
-          <div class="bluebutton_big"> <img class="refresh_button" src="img/print.svg"> <a >Печать накладной</a></div>
+     <div class="buttons_wrapper">
+          <div class="bluebutton_big"> <div class="button_icon"> <img class="refresh_button" src="img/print.svg"></div><div class="button_title"> <a >Печать накладной</a></div></div>
          
-        </div>       
-          <div class="bluebutton_big"> <img class="refresh_button" src="img/print_st.svg"> <a >Печать стикера</a></div>
-         
-        </div>       
-</div>
+             
+          <div class="bluebutton_big"> <div class="button_icon"> <img class="refresh_button" src="img/print_st.svg"></div> <div class="button_title"> <a >Печать стикера</a></div> </div>
+          </div> 
+              
 
-     <div class="col-sm-2">
+     <div class="page_navigation_wrapper">
+        <div class="page_select_wrapper">
           <span>Строк на странице:</span>
      <select class="custom-select">
-  <option selected>6</option>
-  <option value="12">12</option>
-  <option value="24">24</option>
-  <option value="48">48</option>
+  <option selected>3</option>
+  <option value="12">6</option>
+  <option value="24">12</option>
+  <option value="48">36</option>
   <option value="48">100</option>
 </select>
+
 </div>
 
-     <div class="col-sm-4">
+
+     
         <nav aria-label="Page navigation example">
           <ul class="pagination justify-content-end">
             <li class="page-item disabled">
-              <a class="page-link" href="#" tabindex="-1">Previous</a>
+              <img src="img/pagination_previous.svg">
             </li>
             <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
             <li class="page-item">
-              <a class="page-link" href="#">Next</a>
+              <img src="img/pagination_next.svg">
             </li>
           </ul>
         </nav>   
         </div>
      </div>
+     </div>
+
+     </div> 
   </section>
 </div>
 </div>

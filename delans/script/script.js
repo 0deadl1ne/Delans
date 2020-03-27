@@ -14,14 +14,7 @@ window.onload = function() {
           todayHighlight: true,
       });
       $('#datepicker2').datepicker("setDate", new Date());
-  
-     
-     
-        
-
-
-}
-  (function($){
+        (function($){
                $(window).on("load",function(){
                $("#blocktable-id").mCustomScrollbar({
                          axis:"x",
@@ -32,9 +25,16 @@ window.onload = function() {
                });
           })(jQuery);
 
+  
+     
+     
+        
+
+
+}
+
+
 function getSmallMenu() {
-
-
 
 
     let titles = $('.hidden');
@@ -60,4 +60,12 @@ function getSmallMenu() {
 
 
 
+}
+function ShowOrders(){
+     let orders = $('.show');
+      for (let index = 0; index < orders.length; index++) {
+        const elem = orders[index];
+     elem.classList.toggle('hideOrders');
+
+}
 }
