@@ -18,11 +18,6 @@ function tableSearch() {
     }
 }
 
-document.getElementById("clearButton").onclick = function(e) {
-  document.getElementById("search-text").value = "";
-  tableSearch();
-}
-
 function opendesc(numcontent) {
   if (document.getElementById(numcontent).classList == 'orderdesc') {
     document.getElementById(numcontent).classList.remove('orderdesc');

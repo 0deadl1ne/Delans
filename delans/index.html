@@ -6,402 +6,291 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <!--   <link rel="stylesheet" href="css/bootstrap.min.css">  --> 
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
-    <script type="text/javascript" src="script/jq/jq.js"></script>
-    <script type="text/javascript" src="script/script.js"></script>
+    <link href="Ubuntu:300,400,400i,500,500i,700&amp;subset=cyrillic" type="text/css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="script/searchtable.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="script/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
 </head>
 
 <body class="orders-body">
-
     <div class="left_slide">
-    <div id="menu" class="left_menu_wrapper hidden ">
-
-        <div class="logo_wrapper hidden">
-            <div class="menu_item_wrapper hidden" onclick="getSmallMenu()">
-                
+        <div id="menu" class="left_menu_wrapper hidden ">
+            <div class="logo_wrapper hidden">
+                <div class="menu_item_wrapper hidden" onclick="getSmallMenu()">
                     <div class="item_icon">
                         <img id="zoom" src="img/menu.svg">
                     </div>
-                   
-               
-            </div>
-            <div class="logo hidden">
-                <img id="logo" src="img/logo.svg">
-                <div class="logo_subtitle hidden">
-                    Личный кабинет
                 </div>
-            </div>
-        </div>
-        <button id="addNewOrderButton" class="hidden">
-            <div class="button_wrapper hidden">
-                <div class="button_detail hidden"><img src="img/button_plus.svg">
-                </div>
-                <span class="new_order hidden"> Новый заказ</span>
-            </div>
-        </button>
-        <div class="menu_items_wrapper hidden">
-            <div class="menu_items">
-                <div class="menu_item_wrapper hidden" onclick="ShowOrders()">
-                    <div class="item hidden">
-                        <div class="item_icon"><img src="img/orders.svg">
-                        </div>
-                        <span class="item_title hidden">Заказы</span>
-                    </div>
-                </div>
-                <div class="menu_item_wrapper hidden">
-                    <div class="item hidden">
-                        <div class="item_icon">
-                            <img src="img/calculator.svg">
-                        </div>
-                        <span class="item_title hidden">Калькулятор</span>
-                    </div>
-                </div>
-                <div class="menu_item_wrapper hidden">
-                    <div class="item hidden">
-                        <div class="item_icon">
-                            <img src="img/report.svg">
-                        </div>
-                        <span class="item_title hidden">Отчетность</span>
+                <div class="logo hidden">
+                    <img id="logo" src="img/logo.svg">
+                    <div class="logo_subtitle hidden">
+                        Личный кабинет
                     </div>
                 </div>
             </div>
-          
-        </div>
-        <div class="hr hidden">
-            <svg height="3" viewBox="0 0 201 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0.5L200 2.5" stroke="#485775" stroke-opacity="0.5" />
-        </div>
-        </svg>
-        <div class="menu_footer hidden">
-            <div class="menu_item_wrapper hidden">
-                <div class="item hidden">
-                    <div class="item_icon">
-                        <img src="img/exit.svg">
+            <button id="addNewOrderButton" class="hidden">
+                <div class="button_wrapper hidden">
+                    <div class="button_detail hidden"><img src="img/button_plus.svg">
                     </div>
-                    <span class="item_title hidden">Выход</span>
+                    <span class="new_order hidden"> Новый заказ</span>
                 </div>
-            </div>
-            <div class="menu_item_wrapper hidden">
-                <div class="item hidden">
-                    <span class="item_title hidden">+ 7 (495) 230-03-03</span>
-                </div>
-            </div>
-            <div class="links_wrapper hidden ">
-                <ul class="user_links hidden">
-                    <li class="user_link hidden"><a class="link hidden" href="#">Временные фалы cookie</a></li>
-                    <li class="user_link hidden"><a href="#" class=" link hidden"> Пользовательское соглашение</a></li>
-                    <li class="user_link hidden"><a href="#" class=" link hidden">Политика конфиденциальности</a></li>
-                    <li class="user_link hidden"><a href="#" class=" link hidden"> Все права защищены © 2018 Delans.</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </div>
-   
-<!-- <p>&nbsp;</p> -->
-
-<div class="right-side show">
-
-<div class="orders-container">
-  <section>
-        <div class="orders-header">
-          <h1>Заказы</h1> 
-           <div class="row blocksearch">
-        
-        <div class="blocksearch-left col-sm">
-          
-          <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker">
-          <span> — </span>
-          <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker2">
-          <div class="bluebutton"> <div class="button_icon"><img class="refresh_button" src="img/refresh.svg"> </div> <div class="button_title"><a >Обновить</a></div></div>
-         
-        </div>        
-        <div class="blocksearch-right col-sm">
-        <div class="input-group">
-          <input type="text" class="form-control input1 input1_last"  placeholder="Поиск по таблице" id="search-text" onkeyup="tableSearch()" style="flex-grow:1;">  <i class="fa fa-times"></i>
-                  <!-- <span class="input-group-append"> -->
-           <!--  <button  id="clearButton"  class="btn btn-outline-secondary border-left-0 border" type="button"> -->
-               
             </button>
-          </span>
-        </div>
+            <div class="menu_items_wrapper hidden">
+                <div class="menu_items">
+                    <div class="menu_item_wrapper hidden" onclick="ShowOrders()">
+                        <div class="item hidden">
+                            <div class="item_icon"><img src="img/orders.svg">
+                            </div>
+                            <span class="item_title hidden">Заказы</span>
+                        </div>
+                    </div>
+                    <div class="menu_item_wrapper hidden">
+                        <div class="item hidden">
+                            <div class="item_icon">
+                                <img src="img/calculator.svg">
+                            </div>
+                            <span class="item_title hidden">Калькулятор</span>
+                        </div>
+                    </div>
+                    <div class="menu_item_wrapper hidden">
+                        <div class="item hidden">
+                            <div class="item_icon">
+                                <img src="img/report.svg">
+                            </div>
+                            <span class="item_title hidden">Отчетность</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr hidden">
+                <svg height="3" viewBox="0 0 201 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0.5L200 2.5" stroke="#485775" stroke-opacity="0.5" />
+            </div>
+            </svg>
+            <div class="menu_footer hidden">
+                <div class="menu_item_wrapper hidden">
+                    <div class="item hidden">
+                        <div class="item_icon">
+                            <img src="img/exit.svg">
+                        </div>
+                        <span class="item_title hidden">Выход</span>
+                    </div>
+                </div>
+                <div class="menu_item_wrapper hidden">
+                    <div class="item hidden">
+                        <span class="item_title hidden">+ 7 (495) 230-03-03</span>
+                    </div>
+                </div>
+                <div class="links_wrapper hidden ">
+                    <ul class="user_links hidden">
+                        <li class="user_link hidden"><a class="link hidden" href="#">Временные фалы cookie</a></li>
+                        <li class="user_link hidden"><a href="#" class=" link hidden"> Пользовательское соглашение</a></li>
+                        <li class="user_link hidden"><a href="#" class=" link hidden">Политика конфиденциальности</a></li>
+                        <li class="user_link hidden"><a href="#" class=" link hidden"> Все права защищены © 2018 Delans.</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- <p>&nbsp;</p> -->
+    <div class="right-side show">
+        <div class="orders-container">
+            <section>
+                <div class="orders-header">
+                    <h1>Заказы</h1>
+                    <div class="row blocksearch">
+                        <div class="blocksearch-left col-sm">
+                            <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker">
+                            <span> — </span>
+                            <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker2">
+                            <div class="bluebutton">
+                                <div class="button_icon"><img class="refresh_button" src="img/refresh.svg"> </div>
+                                <div class="button_title"><a>Обновить</a></div>
+                            </div>
+                        </div>
+                        <div class="blocksearch-right col-sm">
+                            <div class="input-group">
+                                <input type="text" class="form-control input1 input1_last" placeholder="Поиск по таблице" id="search-text" onkeyup="tableSearch()" style="flex-grow:1;">
+                                <span class="input-group-append">
+                                    <button id="clearButton" class="btn btn-outline-secondary border-left-0 border" type="button">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </span>
+                                <!-- <span class="input-group-append"> -->
+                                <!--  <button  id="clearButton"  class="btn btn-outline-secondary border-left-0 border" type="button"> -->
+                                </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+            </section>
+            <!-- table -->
+            <section>
+                <div class="blocktable">
+                    <div class="blocktable-container" id="blocktable-id">
+                        <table id="info-table" cellspacing="0" class="table table-checks">
+                            <tbody>
+                                <tr>
+                                    <th style="width: 30px"><input type="checkbox" onclick="toggle(this);" /></th>
+                                    <th style="width: 80px">Дата заказа</th>
+                                    <th style="width: 80px">Номер доставки</th>
+                                    <th style="width: 90px">Номер вх. накладной</th>
+                                    <th style="width: 110px">Отправитель</th>
+                                    <th style="width: 110px">Отправитель контакт. лицо</th>
+                                    <th style="width: 100px">Город отправитель</th>
+                                    <th style="width: 110px">Получатель</th>
+                                    <th style="width: 110px">Получатель контакт. лицо</th>
+                                    <th style="width: 90px">Город получатель</th>
+                                    <th style="width: 120px">Адрес</th>
+                                    <th style="width: 80px">Статус</th>
+                                    <th style="width: 80px">Дата доставки</th>
+                                    <th style="width: 50px">Вес</th>
+                                    <th style="width: 45px">Мест</th>
+                                    <th style="width: 75px">Сумма заказа</th>
+                                </tr>
+                                <tr class="color-r">
+                                    <td class="centermiddle"><input type="checkbox"></td>
+                                    <td>12.03.2020</td>
+                                    <td><a onclick="opendesc(this.textContent)">23319S</a></td>
+                                    <td>312134</td>
+                                    <td>Сидоров Иван</td>
+                                    <td>Иванов Иван</td>
+                                    <td>Москва</td>
+                                    <td>Петров Петр</td>
+                                    <td>Петров Петр</td>
+                                    <td>Москва</td>
+                                    <td>улица Арбат, 18с1, Москва, Россия</td>
+                                    <td>Назначен</td>
+                                    <td>12.03.2020</td>
+                                    <td>90</td>
+                                    <td>2</td>
+                                    <td>39 660</td>
+                                <tr class="orderdesc" id="23319S">
+                                    <td colspan="4" class="orderdesc-left">
+                                        <b>Дополнительная информация по заказу</b>
+                                        <br>Данный функционал в разработке
+                                    </td>
+                                    <td colspan="12" class="orderdesc-right">
+                                        <b>История статусов:</b>
+                                        <br>Подготовлен - 12.03.2020
+                                        <br>Назначен - 12.03.2020
+                                        <br>Доставлен - 13.03.2020
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr class="color-r">
+                                    <td class="centermiddle"><input type="checkbox"></td>
+                                    <td>12.03.2020</td>
+                                    <td><a onclick="opendesc(this.textContent)">23320S</a></td>
+                                    <td>312134</td>
+                                    <td>Сидоров Иван</td>
+                                    <td>Иванов Иван</td>
+                                    <td>Москва</td>
+                                    <td>Петров Петр</td>
+                                    <td>Петров Петр</td>
+                                    <td>Москва</td>
+                                    <td>улица Арбат, 18с1, Москва, Россия</td>
+                                    <td>Назначен</td>
+                                    <td>12.03.2020</td>
+                                    <td>90</td>
+                                    <td>2</td>
+                                    <td>39 660</td>
+                                <tr class="orderdesc" id="23320S">
+                                    <td colspan="4" class="orderdesc-left">
+                                        <b>Дополнительная информация по заказу</b>
+                                        <br>Данный функционал в разработке
+                                    </td>
+                                    <td colspan="12" class="orderdesc-right">
+                                        <b>История статусов:</b>
+                                        <br>Подготовлен - 12.03.2020
+                                        <br>Назначен - 12.03.2020
+                                        <br>Доставлен - 13.03.2020
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr class="color-r">
+                                    <td class="centermiddle"><input type="checkbox"></td>
+                                    <td>12.03.2020</td>
+                                    <td><a onclick="opendesc(this.textContent)">23321S</a></td>
+                                    <td>312134</td>
+                                    <td>Сидоров Иван</td>
+                                    <td>Иванов Иван</td>
+                                    <td>Москва</td>
+                                    <td>Петров Петр</td>
+                                    <td>Петров Петр</td>
+                                    <td>Москва</td>
+                                    <td>улица Арбат, 18с1, Москва, Россия</td>
+                                    <td>Назначен</td>
+                                    <td>12.03.2020</td>
+                                    <td>90</td>
+                                    <td>2</td>
+                                    <td>39 660</td>
+                                <tr class="orderdesc" id="23321S">
+                                    <td colspan="4" class="orderdesc-left">
+                                        <b>Дополнительная информация по заказу</b>
+                                        <br>Данный функционал в разработке
+                                    </td>
+                                    <td colspan="12" class="orderdesc-right">
+                                        <b>История статусов:</b>
+                                        <br>Подготовлен - 12.03.2020
+                                        <br>Назначен - 12.03.2020
+                                        <br>Доставлен - 13.03.2020
+                                    </td>
+                                </tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row blocksearch">
+                    <div class="buttons_wrapper">
+                        <div class="bluebutton_big">
+                            <div class="button_icon"> <img class="refresh_button" src="img/print.svg"></div>
+                            <div class="button_title"> <a>Печать накладной</a></div>
+                        </div>
+                        <div class="bluebutton_big">
+                            <div class="button_icon"> <img class="refresh_button" src="img/print_st.svg"></div>
+                            <div class="button_title"> <a>Печать стикера</a></div>
+                        </div>
+                    </div>
+                    <div class="page_navigation_wrapper">
+                        <div class="page_select_wrapper">
+                            <!--  <span>Строк на странице:</span> -->
+                            <select class="custom-select">
+                                <option selected>3</option>
+                                <option value="12">6</option>
+                                <option value="24">12</option>
+                                <option value="48">36</option>
+                                <option value="48">100</option>
+                            </select>
+                        </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <img class="pagination_button" src="img/pagination_previous.svg">
+                                </li>
+                                <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">16</a></li>
+                                <li class="page-item">
+                                    <img class="pagination_button" src="img/pagination_next.svg">
+                                </li>
+                            </ul>
+                        </nav>
+            </section>
         </div>
-  </section>
-  <section>
-       
-  </section>
-  <!-- table -->
-  <section>
-        <div class="blocktable">
-          <div class="blocktable-container"  id="blocktable-id">
-
-            <table id="info-table" cellspacing="0" class="table table-checks">
-              <tbody>
-                <tr>
-                  <th style="width: 30px"><input type="checkbox" onclick="toggle(this);" /></th>
-                  <th style="width: 80px">Дата заказа</th>
-                  <th style="width: 80px">Номер доставки</th>
-                  <th style="width: 90px">Номер вх. накладной</th>
-                  <th style="width: 110px">Отправитель</th>
-                  <th style="width: 110px">Отправитель контакт. лицо</th>
-                  <th style="width: 100px">Город отправитель</th>
-                  <th style="width: 110px">Получатель</th>
-                  <th style="width: 110px">Получатель контакт. лицо</th>
-                  <th style="width: 90px">Город получатель</th>
-                  <th style="width: 120px">Адрес</th>
-                  <th style="width: 80px">Статус</th>
-                  <th style="width: 80px">Дата доставки</th>
-                  <th style="width: 50px">Вес</th>
-                  <th style="width: 45px">Мест</th>
-                  <th style="width: 75px">Сумма заказа</th>
-                </tr>
-                <tr class="color-r"> 
-                    <td class="centermiddle"><input type="checkbox"></td>
-                    <td>12.03.2020</td>
-                    <td><a onclick="opendesc(this.textContent)">23319S</a></td>
-                    <td>312134</td>
-                    <td>Сидоров Иван</td>
-                    <td>Иванов Иван</td>
-                    <td>Москва</td>
-                    <td>Петров Петр</td>
-                    <td>Петров Петр</td>
-                    <td>Москва</td>
-                    <td>улица Арбат, 18с1, Москва, Россия</td>
-                    <td>Назначен</td>
-                    <td>12.03.2020</td>
-                    <td>90</td>
-                    <td>2</td>
-                    <td>39 660</td>
-                    <tr class="orderdesc" id="23319S">
-                      <td colspan="4" class="orderdesc-left">
-                      <b>Дополнительная информация по заказу</b>
-                      <br>Данный функционал в разработке
-                      </td>
-                      <td colspan="12" class="orderdesc-right">                   
-                      <b>История статусов:</b>
-                      <br>Подготовлен - 12.03.2020
-                      <br>Назначен - 12.03.2020
-                      <br>Доставлен - 13.03.2020
-                      </td>
-                    </tr>
-                </tr>
-                <tr class="color-r"> 
-                    <td class="centermiddle"><input type="checkbox"></td>
-                    <td>12.03.2020</td>
-                    <td><a onclick="opendesc(this.textContent)">23320S</a></td>
-                    <td>312134</td>
-                    <td>Сидоров Иван</td>
-                    <td>Иванов Иван</td>
-                    <td>Москва</td>
-                    <td>Петров Петр</td>
-                    <td>Петров Петр</td>
-                    <td>Москва</td>
-                    <td>улица Арбат, 18с1, Москва, Россия</td>
-                    <td>Назначен</td>
-                    <td>12.03.2020</td>
-                    <td>90</td>
-                    <td>2</td>
-                    <td>39 660</td>
-                    <tr class="orderdesc" id="23320S">
-                      <td colspan="4" class="orderdesc-left">
-                      <b>Дополнительная информация по заказу</b>
-                      <br>Данный функционал в разработке
-                      </td>
-                      <td colspan="12" class="orderdesc-right">                   
-                      <b>История статусов:</b>
-                      <br>Подготовлен - 12.03.2020
-                      <br>Назначен - 12.03.2020
-                      <br>Доставлен - 13.03.2020
-                      </td>
-                    </tr>
-                </tr>
-                <tr class="color-r"> 
-                    <td class="centermiddle"><input type="checkbox"></td>
-                    <td>12.03.2020</td>
-                    <td><a onclick="opendesc(this.textContent)">23321S</a></td>
-                    <td>312134</td>
-                    <td>Сидоров Иван</td>
-                    <td>Иванов Иван</td>
-                    <td>Москва</td>
-                    <td>Петров Петр</td>
-                    <td>Петров Петр</td>
-                    <td>Москва</td>
-                    <td>улица Арбат, 18с1, Москва, Россия</td>
-                    <td>Назначен</td>
-                    <td>12.03.2020</td>
-                    <td>90</td>
-                    <td>2</td>
-                    <td>39 660</td>
-                    <tr class="orderdesc" id="23321S">
-                      <td colspan="4" class="orderdesc-left">
-                      <b>Дополнительная информация по заказу</b>
-                      <br>Данный функционал в разработке
-                      </td>
-                      <td colspan="12" class="orderdesc-right">                   
-                      <b>История статусов:</b>
-                      <br>Подготовлен - 12.03.2020
-                      <br>Назначен - 12.03.2020
-                      <br>Доставлен - 13.03.2020
-                      </td>
-                    </tr>
-                </tr>
-            <!--     <tr class="color-r"> 
-                    <td class="centermiddle"><input type="checkbox"></td>
-                    <td>12.03.2020</td>
-                    <td><a onclick="opendesc(this.textContent)">23322S</a></td>
-                    <td>312134</td>
-                    <td>Сидоров Иван</td>
-                    <td>Иванов Иван</td>
-                    <td>Москва</td>
-                    <td>Петров Петр</td>
-                    <td>Петров Петр</td>
-                    <td>Москва</td>
-                    <td>улица Арбат, 18с1, Москва, Россия</td>
-                    <td>Назначен</td>
-                    <td>12.03.2020</td>
-                    <td>90</td>
-                    <td>2</td>
-                    <td>39 660</td>
-                    <tr class="orderdesc" id="23322S">
-                      <td colspan="4" class="orderdesc-left">
-                      <b>Дополнительная информация по заказу</b>
-                      <br>Данный функционал в разработке
-                      </td>
-                      <td colspan="12" class="orderdesc-right">                   
-                      <b>История статусов:</b>
-                      <br>Подготовлен - 12.03.2020
-                      <br>Назначен - 12.03.2020
-                      <br>Доставлен - 13.03.2020
-                      </td>
-                    </tr>
-                </tr>
-                <tr class="color-r"> 
-                    <td class="centermiddle"><input type="checkbox"></td>
-                    <td>12.03.2020</td>
-                    <td><a onclick="opendesc(this.textContent)">23323S</a></td>
-                    <td>312134</td>
-                    <td>Сидоров Иван</td>
-                    <td>Иванов Иван</td>
-                    <td>Москва</td>
-                    <td>Петров Петр</td>
-                    <td>Петров Петр</td>
-                    <td>Москва</td>
-                    <td>улица Арбат, 18с1, Москва, Россия</td>
-                    <td>Назначен</td>
-                    <td>12.03.2020</td>
-                    <td>90</td>
-                    <td>2</td>
-                    <td>39 660</td>
-                    <tr class="orderdesc" id="23323S">
-                      <td colspan="4" class="orderdesc-left">
-                      <b>Дополнительная информация по заказу</b>
-                      <br>Данный функционал в разработке
-                      </td>
-                      <td colspan="12" class="orderdesc-right">                   
-                      <b>История статусов:</b>
-                      <br>Подготовлен - 12.03.2020
-                      <br>Назначен - 12.03.2020
-                      <br>Доставлен - 13.03.2020
-                      </td>
-                    </tr>
-                </tr>
-                <tr class="color-r"> 
-                    <td class="centermiddle"><input type="checkbox"></td>
-                    <td>12.03.2020</td>
-                    <td><a onclick="opendesc(this.textContent)">23324S</a></td>
-                    <td>312134</td>
-                    <td>Сидоров Иван</td>
-                    <td>Иванов Иван</td>
-                    <td>Москва</td>
-                    <td>Петров Петр</td>
-                    <td>Петров Петр</td>
-                    <td>Москва</td>
-                    <td>улица Арбат, 18с1, Москва, Россия</td>
-                    <td>Назначен</td>
-                    <td>12.03.2020</td>
-                    <td>90</td>
-                    <td>2</td>
-                    <td>39 660</td>
-                    <tr class="orderdesc" id="23324S">
-                      <td colspan="4" class="orderdesc-left">
-                      <b>Дополнительная информация по заказу</b>
-                      <br>Данный функционал в разработке
-                      </td>
-                      <td colspan="12" class="orderdesc-right">                   
-                      <b>История статусов:</b>
-                      <br>Подготовлен - 12.03.2020
-                      <br>Назначен - 12.03.2020
-                      <br>Доставлен - 13.03.2020
-                      </td>
-                    </tr>
-                </tr> -->
-
-
-
-              </tbody>
-            </table>
-          </div>
     </div>
-  </section>
-  <!-- //table -->
-  <section>
-     <div class="row blocksearch">
-     <div class="buttons_wrapper">
-          <div class="bluebutton_big"> <div class="button_icon"> <img class="refresh_button" src="img/print.svg"></div><div class="button_title"> <a >Печать накладной</a></div></div>
-         
-             
-          <div class="bluebutton_big"> <div class="button_icon"> <img class="refresh_button" src="img/print_st.svg"></div> <div class="button_title"> <a >Печать стикера</a></div> </div>
-          </div> 
-              
-
-     <div class="page_navigation_wrapper">
-        <div class="page_select_wrapper">
-         <!--  <span>Строк на странице:</span> -->
-     <select class="custom-select">
-  <option selected>3</option>
-  <option value="12">6</option>
-  <option value="24">12</option>
-  <option value="48">36</option>
-  <option value="48">100</option>
-</select>
-
-</div>
-
-
-     
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-end">
-            <li class="page-item disabled">
-              <img class="pagination_button" src="img/pagination_previous.svg">
-            </li>
-            <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">...</a></li>
-            <li class="page-item"><a class="page-link" href="#">16</a></li>
-            <li class="page-item">
-              <img class="pagination_button" src="img/pagination_next.svg">
-            </li>
-          </ul>
-        </nav>   
-        </div>
-     </div>
-     </div>
-
-     </div> 
-  </section>
-</div>
-</div>
-
 </body>
 
 </html>

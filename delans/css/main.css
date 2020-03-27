@@ -689,16 +689,16 @@ body > div.right-side > div > section:nth-child(4) > div > div.buttons_wrapper >
     font-weight: 400;
     border-right: 0px solid rgba(0, 0, 0, 0.12);
     border-bottom: 0px solid rgba(0, 0, 0, 0.12);
-    padding: 1rem 0.7rem;
+    /*padding: 1rem 0.7rem;*/
 }
 
 .blocktable table.t-center td {
     text-align: center;
 }
 
-/* .blocktable table tr:nth-child(2n - 1) {
+ .blocktable table tr:nth-child(2n - 1) {
     background-color: #f7f7f7;
-} */
+} 
 
 .datepicker td, .datepicker th {
     width: 1.5em;
@@ -898,4 +898,10 @@ td{
     }
     .page-link:hover{
         color: rgb(85, 102, 127);
+    }
+    .old_day{
+            font-size: 15px;
+    }
+    body > div.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom > div.datepicker-days > table > tbody > tr{
+        height: 0px;
     }
