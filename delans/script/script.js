@@ -44,7 +44,7 @@ function getSmallMenu() {
     }
     if ($('.left_menu_wrapper').css('width') == '200px') {
         $("#logo").attr('src', 'img/e_logo.svg');
-        $("#zoom").attr('src', 'img/new_zoom.svg');
+        // $("#zoom").attr('src', 'img/new_zoom.svg');
 
 
 
@@ -52,7 +52,7 @@ function getSmallMenu() {
     } else {
 
         $("#logo").attr('src', 'img/logo.svg');
-        $("#zoom").attr('src', 'img/zoom.svg');
+        // $("#zoom").attr('src', 'img/zoom.svg');
 
     }
 

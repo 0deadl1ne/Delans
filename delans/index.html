@@ -22,7 +22,16 @@
 
     <div class="left_slide">
     <div id="menu" class="left_menu_wrapper hidden ">
+
         <div class="logo_wrapper hidden">
+            <div class="menu_item_wrapper hidden" onclick="getSmallMenu()">
+                
+                    <div class="item_icon">
+                        <img id="zoom" src="img/menu.svg">
+                    </div>
+                   
+               
+            </div>
             <div class="logo hidden">
                 <img id="logo" src="img/logo.svg">
                 <div class="logo_subtitle hidden">
@@ -63,14 +72,7 @@
                     </div>
                 </div>
             </div>
-            <div class="menu_item_wrapper hidden" onclick="getSmallMenu()">
-                <div class="item hidden">
-                    <div class="item_icon">
-                        <img id="zoom" src="img/zoom.svg">
-                    </div>
-                    <span class="item_title hidden">Уменьшить</span>
-                </div>
-            </div>
+          
         </div>
         <div class="hr hidden">
             <svg height="3" viewBox="0 0 201 3" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -252,7 +254,7 @@
                       </td>
                     </tr>
                 </tr>
-                <tr class="color-r"> 
+            <!--     <tr class="color-r"> 
                     <td class="centermiddle"><input type="checkbox"></td>
                     <td>12.03.2020</td>
                     <td><a onclick="opendesc(this.textContent)">23322S</a></td>
@@ -282,7 +284,7 @@
                       </td>
                     </tr>
                 </tr>
-               <!--  <tr class="color-r"> 
+                <tr class="color-r"> 
                     <td class="centermiddle"><input type="checkbox"></td>
                     <td>12.03.2020</td>
                     <td><a onclick="opendesc(this.textContent)">23323S</a></td>
@@ -363,7 +365,7 @@
 
      <div class="page_navigation_wrapper">
         <div class="page_select_wrapper">
-          <span>Строк на странице:</span>
+         <!--  <span>Строк на странице:</span> -->
      <select class="custom-select">
   <option selected>3</option>
   <option value="12">6</option>
@@ -379,13 +381,15 @@
         <nav aria-label="Page navigation example">
           <ul class="pagination justify-content-end">
             <li class="page-item disabled">
-              <img src="img/pagination_previous.svg">
+              <img class="pagination_button" src="img/pagination_previous.svg">
             </li>
             <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">16</a></li>
             <li class="page-item">
-              <img src="img/pagination_next.svg">
+              <img class="pagination_button" src="img/pagination_next.svg">
             </li>
           </ul>
         </nav>   

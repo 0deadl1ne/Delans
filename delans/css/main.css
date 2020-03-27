@@ -23,7 +23,7 @@
      height: 60px;
      width: 73%;
      position: absolute;
-     top: 28px;
+     top: 32px;
      right: 0;
      left: 0;
 
@@ -252,6 +252,7 @@
 
  .hide .logo {
      width: 60%;
+         top: 50px;
  }
 
  .hide a,
@@ -840,7 +841,7 @@ td{
 }
 .custom-select {
     display: inline-block;
-    width: 40%;
+    width: 87%;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem 1.75rem .375rem .75rem;
     font-size: 1rem;
@@ -857,7 +858,7 @@ td{
     appearance: none;
 }
 .page_select_wrapper{
-    width: 248px;
+    width: 120px;
 }
 #datepicker2{
     margin-left: 15px;
@@ -876,3 +877,25 @@ td{
 #menu > div.menu_item_wrapper.hidden > div > span{
     visibility: hidden;
 }
+#zoom{
+    position: absolute;
+  left: 9px;
+    top: 4px;
+    }
+    #menu > div.logo_wrapper.hidden > div.menu_item_wrapper.hidden{
+         transition: 0s;
+        width: 22%;
+    }
+   #menu > div.logo_wrapper.hidden.hide > div.menu_item_wrapper.hidden.hide{
+    /*transition: 0s;*/
+        width: 100%;
+    }
+    .pagination_button{
+        border-radius: 50%
+    }
+    .pagination_button:hover{
+        opacity: 0.7;
+    }
+    .page-link:hover{
+        color: rgb(85, 102, 127);
+    }
