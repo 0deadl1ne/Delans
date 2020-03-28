@@ -1,8 +1,8 @@
-* {
+  * {
     padding: 0;
     margin: 0;
-}
-body {
+  }
+ body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         font-size: 1rem;
@@ -997,9 +997,10 @@ body {
         min-height: 635px;
     }
 
+
   
 
-@media(min-width: 1910px) and (max-width: 2650px) {
+ @media(min-width: 1910px) and (max-width: 2600px){
 
     body {
         margin: 0;
@@ -1830,11 +1831,6 @@ body {
     body>div.right-side>div>section:nth-child(1)>div>div>div.blocksearch-left.col-sm>div>div.button_icon {
         width: 35%;
     }
-
-
-
-
-
 
     .buttons_wrapper {
         width: 450px;
@@ -1999,17 +1995,17 @@ body {
     #order_cont {
         max-width: 1489px;
     }
-}
+ }
 
 
-@media(min-width: 1024px) and (max-width: 1440px) {
+ @media(min-width: 1024px) and (max-width: 1440px) {
 
     .right-side {
         width: calc(100% - 201px);
         padding: 38px 0px;
     }
 
-    body>div.right-side.show.hideOrders>div {
+    #order_cont{
         max-width: 673px;
 
     }
@@ -2135,10 +2131,10 @@ body {
 
 
 
-}
+ }
 
-@media (min-width: 1440px) and (max-width: 1910px) {
-    body>div.right-side.show.hideOrders>div {
+ @media (min-width: 1440px) and (max-width: 1910px) {
+    #order_cont {
         max-width: 1065px;
     }
 
@@ -2158,9 +2154,10 @@ body {
     .orders-header h1 {
         font-size: 48px;
     }
+}
 
-    @media (min-width: 2560px) {
-        body>div.right-side.show.hideOrders>div {
+    @media (min-width: 2560px) and (max-width: 4600px) {
+        #order_cont{
             max-width: 2195px;
         }
 
