@@ -999,7 +999,7 @@ body {
 
   
 
-@media(min-width: 1920px) and (max-width: 2650px) {
+@media(min-width: 1910px) and (max-width: 2650px) {
 
     body {
         margin: 0;
@@ -2137,7 +2137,7 @@ body {
 
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
+@media (min-width: 1440px) and (max-width: 1910px) {
     body>div.right-side.show.hideOrders>div {
         max-width: 1065px;
     }
