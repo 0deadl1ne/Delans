@@ -26,16 +26,13 @@ function getSmallMenu() {
     let titles = $('.hidden');
     for (let index = 0; index < titles.length; index++) {
         const element = titles[index];
-        // let hh = element.classList.contains('hide');
         element.classList.toggle('hide');
     }
     if ($('.left_menu_wrapper').hasClass('hide')) {
         $("#logo").attr('src', 'img/e_logo.svg');
-        // $("#zoom").attr('src', 'img/new_zoom.svg');
     } else {
-
         $("#logo").attr('src', 'img/logo.svg');
-        // $("#zoom").attr('src', 'img/zoom.svg');
+
     }
 }
 
