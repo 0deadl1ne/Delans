@@ -2052,7 +2052,7 @@
   }
 
 
-  @media(min-width: 1024px) and (max-width: 1440px) {
+  @media(min-width: 1024px) and (max-width: 1439px) {
 
       .right-side {
           width: calc(100% - 201px);
@@ -2257,6 +2257,7 @@
   @media (min-width: 1440px) and (max-width: 1910px) {
       #order_cont {
           max-width: 1065px;
+          padding: 20px 65px;
       }
 
       #info-table>tbody>tr:nth-child(2)>td:nth-child(11) {
@@ -2264,20 +2265,37 @@
       }
 
       .buttons_wrapper {
-          width: 421px;
+              width: 370px;
+
+      }
+      .bluebutton{
+        width: 174px;
+          height: 34px;
+          padding: 0;
+
       }
 
       .bluebutton_big {
-          width: 189px;
-          padding: 17px 7px;
+          width: 174px;
+          height: 34px;
+          padding: 0;
       }
 
       .orders-header h1 {
           font-size: 48px;
       }
+      .blocksearch-left input{
+        width: 148px;
+    margin-left: 15px;
+      }
+      .user_links{
+        height: 80px;
+   
+    margin-top: -7px;
+      }
   }
 
-  @media (min-width: 2560px) and (max-width: 4600px) {
+  @media (min-width: 2559px) and (max-width: 4600px) {
       #order_cont {
           max-width: 2195px;
       }
