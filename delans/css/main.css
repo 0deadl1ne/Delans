@@ -6,6 +6,10 @@
 user-select: none;
 
   }
+  .blocksearch .input1 {
+  
+    text-indent: 20px;
+}
 
     body {
           margin: 0;
