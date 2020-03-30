@@ -346,7 +346,7 @@
       background-repeat: no-repeat;
       padding-left: 45px;
       width: 10.5rem;
-      border-right: 0px !important;
+      border-right: 0px;
   }
 
   #clearButton {
@@ -356,8 +356,8 @@
       background-repeat: no-repeat;
       width: 35px;
       height: 42px;
-      border: 1px solid #E4DBDB !important;
-      border-left: 0px !important;
+      border: 1px solid #E4DBDB;
+      border-left: 0px;
       background-color: #fff;
   }
 
@@ -398,21 +398,21 @@
   }
 
   .bg-blue {
-      background: #3370CC !important;
+      background: #3370CC;
   }
 
   .nav-h1 a {
       font-size: 1.5rem;
-      color: #fff !important;
+      color: #fff;
       font-weight: 500;
       line-height: 1.5;
   }
 
   .navbar-light .navbar-nav .nav-link,
   .dropdown-item {
-      color: #fff !important;
-      font-size: 16px !important;
-      letter-spacing: 0 !important;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 0;
       margin: 0 20px;
       padding: 0;
       font-weight: 500;
@@ -469,7 +469,7 @@
       overflow: hidden;
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
-      cursor: pointer !important;
+      cursor: pointer;
       background: none;
       border: none;
       box-shadow: inset 0 0 0 2px #fff;
@@ -548,24 +548,24 @@
       border: 1px solid #E4DBDB;
 
       font-size: 1rem;
-      outline: none !important;
+      outline: none;
   }
 
   .blocksearch input::-webkit-input-placeholder {
 
       font-size: 1rem;
-      outline: none !important;
+      outline: none;
   }
 
   .blocksearch input:focus,
   .blocksearch input:active {
-      outline: none !important;
+      outline: none;
   }
 
 
   .blocksearch .input1 {
       margin-right: 1rem;
-      outline: none !important;
+      outline: none;
   }
 
   .blocksearch .input1_last {
@@ -576,19 +576,19 @@
   .blocksearch .input2 {
       margin-right: 0.75rem;
       padding: 0 0.75rem;
-      outline: none !important;
+      outline: none;
   }
 
   .bluebutton {
       margin-right: 15px;
       background-color: #2D7DFA;
-      color: #fff !important;
+      color: #fff;
       border-radius: 4px;
       display: inline-block;
       overflow: hidden;
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
-      cursor: pointer !important;
+      cursor: pointer;
       border: none;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -611,7 +611,7 @@
       font-size: 15px;
       line-height: 14px;
       letter-spacing: 0;
-      color: #fff !important;
+      color: #fff;
       border-radius: 4px;
       display: inline-block;
       font-weight: 400;
@@ -620,7 +620,7 @@
       overflow: hidden;
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
-      cursor: pointer !important;
+      cursor: pointer;
       border: none;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -783,7 +783,7 @@
   }
 
   table a:hover {
-      color: blue !important;
+      color: blue;
   }
 
   .alingright {
@@ -967,7 +967,7 @@
   }
 
   body>div.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom>div.datepicker-days>table>tbody>tr {
-      height: 1px !important;
+      height: 1px;
   }
 
   #clearButton {
@@ -1340,8 +1340,6 @@
       }
 
       .orders-header h1 {
-          /* margin-left: 25px;
-        line-height: 100px;*/
           font-size: 47px;
           line-height: 72px;
           font-size: 47px;
@@ -1370,7 +1368,7 @@
           background-repeat: no-repeat;
           padding-left: 45px;
           width: 10.5rem;
-          border-right: 0px !important;
+          border-right: 0px;
       }
 
       #clearButton {
@@ -1380,8 +1378,8 @@
           background-repeat: no-repeat;
           width: 35px;
           height: 42px;
-          border: 1px solid #E4DBDB !important;
-          border-left: 0px !important;
+          border: 1px solid #E4DBDB;
+          border-left: 0px;
           background-color: #fff;
       }
 
@@ -1422,21 +1420,21 @@
       }
 
       .bg-blue {
-          background: #3370CC !important;
+          background: #3370CC;
       }
 
       .nav-h1 a {
           font-size: 1.5rem;
-          color: #fff !important;
+          color: #fff;
           font-weight: 500;
           line-height: 1.5;
       }
 
       .navbar-light .navbar-nav .nav-link,
       .dropdown-item {
-          color: #fff !important;
-          font-size: 16px !important;
-          letter-spacing: 0 !important;
+          color: #fff;
+          font-size: 16px;
+          letter-spacing: 0;
           margin: 0 20px;
           padding: 0;
           font-weight: 500;
@@ -1493,7 +1491,7 @@
           overflow: hidden;
           -webkit-transform: translateZ(0);
           transform: translateZ(0);
-          cursor: pointer !important;
+          cursor: pointer;
           background: none;
           border: none;
           box-shadow: inset 0 0 0 2px #fff;
@@ -1572,24 +1570,24 @@
           border: 1px solid #E4DBDB;
 
           font-size: 1rem;
-          outline: none !important;
+          outline: none;
       }
 
       .blocksearch input::-webkit-input-placeholder {
 
           font-size: 1rem;
-          outline: none !important;
+          outline: none;
       }
 
       .blocksearch input:focus,
       .blocksearch input:active {
-          outline: none !important;
+          outline: none;
       }
 
 
       .blocksearch .input1 {
           margin-right: 1rem;
-          outline: none !important;
+          outline: none;
       }
 
       .blocksearch .input1_last {
@@ -1600,19 +1598,19 @@
       .blocksearch .input2 {
           margin-right: 0.75rem;
           padding: 0 0.75rem;
-          outline: none !important;
+          outline: none;
       }
 
       .bluebutton {
           margin-right: 15px;
           background-color: #2D7DFA;
-          color: #fff !important;
+          color: #fff;
           border-radius: 4px;
           display: inline-block;
           overflow: hidden;
           -webkit-transform: translateZ(0);
           transform: translateZ(0);
-          cursor: pointer !important;
+          cursor: pointer;
           border: none;
           -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -1635,7 +1633,7 @@
           font-size: 15px;
           line-height: 14px;
           letter-spacing: 0;
-          color: #fff !important;
+          color: #fff;
           border-radius: 4px;
           display: inline-block;
           font-weight: 400;
@@ -1644,7 +1642,7 @@
           overflow: hidden;
           -webkit-transform: translateZ(0);
           transform: translateZ(0);
-          cursor: pointer !important;
+          cursor: pointer;
           border: none;
           -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -1807,7 +1805,7 @@
       }
 
       table a:hover {
-          color: blue !important;
+          color: blue;
       }
 
       .alingright {
@@ -1991,7 +1989,7 @@
       }
 
       body>div.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom>div.datepicker-days>table>tbody>tr {
-          height: 1px !important;
+          height: 1px;
       }
 
       #clearButton {
@@ -2119,13 +2117,13 @@
       .bluebutton {
           margin-right: 15px;
           background-color: #2D7DFA;
-          color: #fff !important;
+          color: #fff;
           border-radius: 4px;
           display: inline-block;
           overflow: hidden;
           -webkit-transform: translateZ(0);
           transform: translateZ(0);
-          cursor: pointer !important;
+          cursor: pointer;
           border: none;
           -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
