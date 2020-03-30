@@ -1052,10 +1052,9 @@ user-select: none;
 
 
       .left_menu_wrapper {
-        height: 100%;
           transition: 500ms;
           width: 200px;
-         /* height: 100vh;*/
+          height: 100vh;
           background: linear-gradient(90.57deg, #3C4963 2.04%, #2C364A 97.36%);
           position: relative;
 
@@ -1063,8 +1062,8 @@ user-select: none;
 
       .logo_wrapper {
           position: relative;
-    width: 200px;
-    height: 150px;
+          width: 200px;
+          height: 13vh;
 
       }
 
@@ -1138,22 +1137,12 @@ user-select: none;
 
       .menu_items_wrapper {
           overflow: hidden;
-    transition: 500ms;
-    height: 525px;
-    width: 200px;
-    margin-top: 15px;
-    position: relative;
+          transition: 500ms;
+          height: 60%;
+          width: 200px;
+          margin-top: 15px;
+          position: relative;
 
-      }
-      #menu > div.menu_footer.hidden{
-        position: absolute;
-    height: 170px;
-    bottom: 0;
-
-      }
-      #menu > div.hr.hidden{
-        position: absolute;
-        bottom: 170px;
       }
 
       .new_order {
