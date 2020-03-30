@@ -317,8 +317,7 @@
   }
 
   .orders-header h1 {
-      /* margin-left: 25px;
-        line-height: 100px;*/
+
       font-size: 47px;
       line-height: 72px;
       font-size: 47px;
@@ -606,7 +605,7 @@
   .bluebutton_big {
       background: inherit;
       background-color: #2D7DFA;
-      /*padding: 14px 10px;*/
+
       text-align: center;
       vertical-align: middle;
       font-size: 15px;
@@ -864,9 +863,7 @@
   }
 
   #order_cont>section:nth-child(4)>div {
-      /* display: flex;
-        justify-content: space-between;
-        line-height: 50px;*/
+
       position: absolute;
       bottom: 0px;
       width: 92%;
@@ -1632,7 +1629,7 @@
       .bluebutton_big {
           background: inherit;
           background-color: #2D7DFA;
-          /*padding: 14px 10px;*/
+
           text-align: center;
           vertical-align: middle;
           font-size: 15px;
@@ -1890,9 +1887,7 @@
       }
 
       #order_cont>section:nth-child(4)>div {
-          /* display: flex;
-        justify-content: space-between;
-        line-height: 50px;*/
+
           position: absolute;
           bottom: 0px;
           width: 92%;
@@ -2083,35 +2078,34 @@
           display: flex;
           justify-content: space-between;
       }
+
       .blocksearch-left {
-    height: 0;
-    width: 526px;
-    display: flex;
-    align-items: center;
-}
-#order_cont > section:nth-child(1) > div > div > div.blocksearch-right.col-sm > div
-{
-    position: absolute;
-    right: -2px;
-    /* left: 25px; */
-    margin: auto;
-    top: 49px;
-    line-height: 73px;
-    height: 64px;
-    width: 675px;
-
-}
-
-      #order_cont > section:nth-child(1) > div > div{
-        height: 8px;
+          height: 0;
+          width: 526px;
+          display: flex;
+          align-items: center;
       }
- /*     .blocksearch-left input {
-        width: 128px;
-    }*/
-    .blocksearch .input1_last {
-    margin-right: 0;
-    width: 594px;
-}
+
+      #order_cont>section:nth-child(1)>div>div>div.blocksearch-right.col-sm>div {
+          position: absolute;
+          right: -2px;
+
+          margin: auto;
+          top: 49px;
+          line-height: 73px;
+          height: 64px;
+          width: 675px;
+
+      }
+
+      #order_cont>section:nth-child(1)>div>div {
+          height: 8px;
+      }
+
+      .blocksearch .input1_last {
+          margin-right: 0;
+          width: 594px;
+      }
 
 
 
@@ -2156,21 +2150,22 @@
 
       body>div.right-side>div>section:nth-child(4)>div>div.buttons_wrapper>div:nth-child(2)>div.button_title,
       body>div.right-side>div>section:nth-child(4)>div>div.buttons_wrapper>div:nth-child(1)>div.button_title>a {
-         line-height: 30px;
+          line-height: 30px;
       }
 
       .refresh_button {
           width: 20px;
           height: 20px;
       }
+
       #clearButton {
-    position: absolute;
-    width: 40px;
-    top: 17px;
-    bottom: 0;
-    right: 3px;
-    height: 44px;
-}
+          position: absolute;
+          width: 40px;
+          top: 17px;
+          bottom: 0;
+          right: 3px;
+          height: 44px;
+      }
 
       .bluebutton_big {
           width: 140px;
@@ -2188,8 +2183,8 @@
 
       .pagination {
 
-         width: 209px;
-    margin-top: 0px;
+          width: 209px;
+          margin-top: 0px;
       }
 
       .page-item {
@@ -2225,34 +2220,41 @@
       .hr {
           margin-top: -25px;
       }
+
       #order_cont>section:nth-child(4)>div {
-    position: absolute;
-    bottom: 0px;
-    width: 85%;
-}
-.buttons_wrapper {
-   width: 400px;
-}
-.bluebutton_big {
-    width: 174px;
-    padding: 0;
+          position: absolute;
+          bottom: 0px;
+          width: 85%;
+      }
+
+      .buttons_wrapper {
+          width: 400px;
+      }
+
+      .bluebutton_big {
+          width: 174px;
+          padding: 0;
 
 
 
+      }
+
+      .blocksearch-left input {
+          width: 125px;
+      }
+
+      .menu_items_wrapper {
+          height: 55%;
+      }
+
+      .left_slide {
+          height: 100vh;
+      }
+
+      .menu_items {
+          height: 24%;
+      }
   }
-  .blocksearch-left input{
-    width: 125px;
-  }
-  .menu_items_wrapper{
-    height: 55%;
-  }
-  .left_slide{
-    height: 100vh;
-  }
-  .menu_items {
-    height: 24%;
-}
-}
 
   @media (min-width: 1440px) and (max-width: 1910px) {
       #order_cont {
@@ -2265,11 +2267,12 @@
       }
 
       .buttons_wrapper {
-              width: 370px;
+          width: 370px;
 
       }
-      .bluebutton{
-        width: 174px;
+
+      .bluebutton {
+          width: 174px;
           height: 34px;
           padding: 0;
 
@@ -2284,14 +2287,16 @@
       .orders-header h1 {
           font-size: 48px;
       }
-      .blocksearch-left input{
-        width: 148px;
-    margin-left: 15px;
+
+      .blocksearch-left input {
+          width: 148px;
+          margin-left: 15px;
       }
-      .user_links{
-        height: 80px;
-   
-    margin-top: -7px;
+
+      .user_links {
+          height: 80px;
+
+          margin-top: -7px;
       }
   }
 
@@ -2299,6 +2304,7 @@
       #order_cont {
           max-width: 2195px;
       }
+
 
       #info-table>tbody>tr {
           height: 140px;
@@ -2341,32 +2347,25 @@
           font-size: 18px;
       }
 
-      body>div.right-side>div>section:nth-child(1)>div>div>div.blocksearch-left.col-sm>div>div.button_title>a {
 
-          font-size: 23px;
-          line-height: 57px;
-      }
 
       .bluebutton {
-          height: 56px;
-          width: 208px;
+          width: 174px;
+          height: 34px;
+          padding: 0;
+
       }
 
       .bluebutton_big {
-
-          padding: 29px 4px;
-          font-size: 19px;
-          width: 246px;
+          width: 174px;
+          height: 34px;
+          padding: 0;
       }
 
       .buttons_wrapper {
-          width: 539px;
+          width: 370px;
       }
 
-      .refresh_button {
-          width: 42px;
-          height: 42px;
-      }
 
       .blocksearch-left input {
           width: 176px;
@@ -2412,8 +2411,7 @@
       }
 
       .page_navigation_wrapper {
-
-          width: 500px;
+          width: 395px;
       }
 
       .pagination {
@@ -2424,5 +2422,9 @@
       .page-item {
 
           font-size: 23px;
+      }
+
+      body>div.right-side.show.hideOrders>div {
+          min-height: 1000px;
       }
   }
