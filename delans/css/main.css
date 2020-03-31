@@ -2081,13 +2081,10 @@
          min-height: 750px;
      }
 
-     /*    #order_cont {
-          max-width: 1511px;
-          position: relative;
-      }*/
+
      .right-side {
-         max-width: 86%;
-     }
+    max-width: 86%;
+}
 
      #icon_zoom {
 
@@ -2097,29 +2094,7 @@
      }
 
 
-     /*        #zoom .hide{
-        width: 45px;
-    position: absolute;
-    top: 10px;
 
-      }*/
-     /*      .mCustomScrollbar {
-   
-    width: 1528px;
-}*/
-
-     /* #menu > div > div.logo_wrapper.hidden.hide > div.menu_item_wrapper{
-        width: 45px;
-    position: absolute;
-    top: 35px;
-
-      }
-         #menu > div > div.logo_wrapper.hidden.hide > div.menu_item_wrapper.hidden.hide{
-        width: 45px;
-    position: absolute;
-    top: 10px;
-
-      }
 */
  }
 
@@ -2606,4 +2581,8 @@
          bottom: -300px;
 
      }
+     .links_wrapper {
+   
+    margin-top: 149px;
+}
  }
