@@ -28,6 +28,13 @@ function getSmallMenu() {
         const element = titles[index];
         element.classList.toggle('hide');
     }
+    let rightside = $('.newsize');
+
+     for (let index = 0; index < rightside.length; index++) {
+        const elem = rightside[index];
+        elem.classList.toggle('bigsize');
+    }
+    
     if ($('.left_menu_wrapper').hasClass('hide')) {
         $("#logo").attr('src', 'img/e_logo.svg');
     } else {
@@ -43,3 +50,4 @@ function ShowOrders() {
         elem.classList.toggle('hideOrders');
     }
 }
+    

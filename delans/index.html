@@ -18,12 +18,11 @@
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 </head>
 
- <body class="orders-body">
+<body class="orders-body">
     <div class="left_slide">
         <div id="menu" class="left_menu_wrapper hidden ">
-            
             <div class="logo_wrapper hidden">
-                <div class="menu_item_wrapper hidden"  onclick="getSmallMenu()">
+                <div class="menu_item_wrapper hidden" onclick="getSmallMenu()">
                     <div class="item_icon">
                         <img id="icon_zoom" src="img/menu.svg">
                     </div>
@@ -72,9 +71,8 @@
             <div class="hr hidden">
                 <svg height="3" viewBox="0 0 201 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0.5L200 2.5" stroke="#485775" stroke-opacity="0.5" />
-                    </svg>
+                </svg>
             </div>
-            
             <div class="menu_footer hidden">
                 <div class="menu_item_wrapper hidden">
                     <div class="item hidden">
@@ -98,11 +96,11 @@
                     </ul>
                 </div>
             </div>
-            </div>
         </div>
     </div>
+    </div>
     <!-- <p>&nbsp;</p> -->
-    <div class="right-side show">
+    <div class="right-side show newsize">
         <div class="orders-container" id="order_cont">
             <section>
                 <div class="orders-header">
@@ -114,7 +112,6 @@
                             <input class="form-control input1" data-date-format="dd.mm.yyyy" id="datepicker2">
                             <div class="bluebutton">
                                 <div class="button_icon"><img class="refresh_button" src="img/refresh.svg"> </div>
-                                <div class="button_title"><a>Обновить</a></div>
                             </div>
                         </div>
                         <div class="blocksearch-right col-sm">
@@ -124,7 +121,6 @@
                                     <button id="clearButton" class="btn btn-outline-secondary border-left-0 border" type="button">
                                         <i class="fa fa-times"></i>
                                     </button>
-                               
                                 </span>
                             </div>
                         </div>
@@ -186,7 +182,6 @@
                                         <br>Доставлен - 13.03.2020
                                     </td>
                                 </tr>
-                               
                                 <tr class="color-r">
                                     <td class="centermiddle"><input type="checkbox"></td>
                                     <td>12.03.2020</td>
@@ -216,7 +211,6 @@
                                         <br>Доставлен - 13.03.2020
                                     </td>
                                 </tr>
-                                
                                 <tr class="color-r">
                                     <td class="centermiddle"><input type="checkbox"></td>
                                     <td>12.03.2020</td>
@@ -246,7 +240,6 @@
                                         <br>Доставлен - 13.03.2020
                                     </td>
                                 </tr>
-                                
                             </tbody>
                         </table>
                     </div>
@@ -291,21 +284,20 @@
                         </nav>
                     </div>
             </section>
-       
-    </div>
-    <script src="script/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script>
-    (function($) {
-        $(window).on("load", function() {
-            $("#blocktable-id").mCustomScrollbar({
-                axis: "x",
-                theme: "inset-2-dark",
-                advanced: { autoExpandHorizontalScroll: true }
-            });
+        </div>
+        <script src="script/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script>
+        (function($) {
+            $(window).on("load", function() {
+                $("#blocktable-id").mCustomScrollbar({
+                    axis: "x",
+                    theme: "inset-2-dark",
+                    advanced: { autoExpandHorizontalScroll: true }
+                });
 
-        });
-    })(jQuery);
-    </script>
+            });
+        })(jQuery);
+        </script>
 </body>
 
 </html>

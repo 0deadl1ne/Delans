@@ -91,18 +91,18 @@
      overflow: hidden;
      transition: 500ms;
      margin: auto;
-     width: 135px;
+     width: 174px;
      height: 34px;
      line-height: 34px;
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
 
  }
 
  .button_detail {
      overflow: hidden;
      transition: 500ms;
-     margin-right: 18px;
+     margin-left: 17px;
      line-height: 37px;
 
  }
@@ -120,6 +120,7 @@
 
  .new_order {
      width: 100px;
+     margin-right: 27px;
      overflow: hidden;
      white-space: nowrap;
  }
@@ -327,7 +328,7 @@
 
  .orders-header h1 {
      font-size: 47px;
-     line-height: 72px;
+     line-height: 67px;
      font-size: 47px;
  }
 
@@ -600,8 +601,8 @@
      border: none;
      -webkit-backface-visibility: hidden;
      backface-visibility: hidden;
-     width: 174px;
-     height: 34px;
+     width: 65px;
+     height: 33px;
 
      display: flex;
      justify-content: space-around;
@@ -1120,44 +1121,7 @@
          margin-left: -13px;
      }
 
-     #addNewOrderButton {
-         overflow: hidden;
-         transition: 500ms;
-         width: 174px;
-         height: 34px;
-         display: block;
-         background: #2D7DFA;
-         border-radius: 5px;
-         border: none;
-         margin: auto;
-         color: #FFFFFF;
-         font-family: Roboto, sans-serif;
-         font-style: normal;
-         font-weight: normal;
-         font-size: 14px;
-         line-height: 16px;
-         cursor: pointer;
-     }
 
-     .button_wrapper {
-         overflow: hidden;
-         transition: 500ms;
-         margin: auto;
-         width: 135px;
-         height: 34px;
-         line-height: 34px;
-         display: flex;
-         justify-content: space-around;
-
-     }
-
-     .button_detail {
-         overflow: hidden;
-         transition: 500ms;
-         margin-right: 18px;
-         line-height: 37px;
-
-     }
 
 
      .menu_items_wrapper {
@@ -1170,11 +1134,6 @@
 
      }
 
-     .new_order {
-         width: 100px;
-         overflow: hidden;
-         white-space: nowrap;
-     }
 
      .menu_item_wrapper {
          overflow: hidden;
@@ -1372,14 +1331,13 @@
          background-size: auto;
          background-position: top left;
          background-repeat: no-repeat;
-         /*padding: 40px 65px;
-          max-width: 1640px;*/
+
          margin: auto;
      }
 
      .orders-header h1 {
          font-size: 47px;
-         line-height: 72px;
+         line-height: 67px;
          font-size: 47px;
      }
 
@@ -1639,28 +1597,6 @@
          outline: none;
      }
 
-     .bluebutton {
-         margin-right: 15px;
-         background-color: #2D7DFA;
-         color: #fff;
-         border-radius: 4px;
-         display: inline-block;
-         overflow: hidden;
-         -webkit-transform: translateZ(0);
-         transform: translateZ(0);
-         cursor: pointer;
-         border: none;
-         -webkit-backface-visibility: hidden;
-         backface-visibility: hidden;
-         width: 174px;
-         height: 34px;
-
-         display: flex;
-         justify-content: space-around;
-         font-size: 14px;
-         line-height: 16px;
-         cursor: pointer;
-     }
 
      .bluebutton_big {
          background: inherit;
@@ -1924,8 +1860,6 @@
 
      #order_cont>section:nth-child(4)>div {
 
-         /*   position: absolute;
-          bottom: 0px;*/
 
          position: relative;
          bottom: -300px;
@@ -2083,8 +2017,8 @@
 
 
      .right-side {
-    max-width: 86%;
-}
+         max-width: 86%;
+     }
 
      #icon_zoom {
 
@@ -2095,7 +2029,7 @@
 
 
 
-*/
+
  }
 
 
@@ -2105,11 +2039,7 @@
          max-width: 80%;
      }
 
-     /*     #order_cont {
-          max-width: 673px;
-          padding: 0px 65px;
 
-      }*/
 
      body>div.right-side.show.hideOrders>div>section:nth-child(1)>div>div {
          flex-wrap: wrap;
@@ -2120,6 +2050,7 @@
          line-height: 72px;
          font-size: 47px;
          font-size: 39px;
+         margin-left: 15px;
 
      }
 
@@ -2167,24 +2098,7 @@
          margin-left: 45px;
      }
 
-     .bluebutton {
-         margin-right: 15px;
-         background-color: #2D7DFA;
-         color: #fff;
-         border-radius: 4px;
-         display: inline-block;
-         overflow: hidden;
-         -webkit-transform: translateZ(0);
-         transform: translateZ(0);
-         cursor: pointer;
-         border: none;
-         -webkit-backface-visibility: hidden;
-         backface-visibility: hidden;
-         width: 174px;
-         height: 34px;
-         display: flex;
-         justify-content: space-around;
-     }
+
 
      body>div.right-side.show.hideOrders>div>section:nth-child(1)>div>div>div.blocksearch-right.col-sm>div {
          line-height: 73px;
@@ -2241,7 +2155,7 @@
      .page-item {
          line-height: 40px;
          font-size: 15px;
-         /* height: 40px;*/
+
 
      }
 
@@ -2251,8 +2165,7 @@
      }
 
      .pagination_button {
-         /*  width: 40px;*/
-         /* height: 40px;*/
+
          border-radius: 50%;
      }
 
@@ -2274,11 +2187,12 @@
 
      #order_cont>section:nth-child(4)>div {
 
-         width: 68%;
+         width: 100%;
      }
 
      .buttons_wrapper {
-         width: 400px;
+         width: 360px;
+
      }
 
      .bluebutton_big {
@@ -2296,10 +2210,6 @@
      .menu_items_wrapper {
          height: 489px;
      }
-
-     /* .left_slide {
-          height: 100vh;
-      }*/
 
      .menu_items {
          height: 24%;
@@ -2321,7 +2231,7 @@
 
      #clearButton {
          position: absolute;
-         /* width: 40px; */
+
          top: 22px;
          bottom: 0;
          right: 10px;
@@ -2330,7 +2240,7 @@
 
      .orders-container {
 
-         padding: 20px 52px;
+         padding: 15px 4px;
 
      }
 
@@ -2346,16 +2256,35 @@
          bottom: -217px;
 
      }
+
+     #icon_zoom {
+
+         position: absolute;
+         top: 5px;
+         left: 9px;
+     }
+
+     .bigsize {
+         transition: 500ms;
+         max-width: 92%;
+     }
+
  }
 
  @media (min-width: 1440px) and (max-width: 1910px) {
      .right-side {
-         max-width: 82%;
+         max-width: 86%;
+         padding: 0px 0px;
+     }
+
+     .bigsize {
+         transition: 500ms;
+         max-width: 92%;
      }
 
      #order_cont>section:nth-child(4)>div {
 
-         width: 76%;
+         width: 100%;
      }
 
      #info-table>tbody>tr:nth-child(2)>td:nth-child(11) {
@@ -2368,7 +2297,7 @@
      }
 
      .bluebutton {
-         width: 174px;
+         width: 65px;
          height: 34px;
          padding: 0;
 
@@ -2395,14 +2324,41 @@
          margin-top: -7px;
      }
 
+     .menu_items_wrapper {
+
+         height: 550px;
+     }
+
+     .menu_footer {
+         position: absolute;
+         height: 150px;
+         bottom: 0;
+         overflow: hidden;
+     }
+
+
+     #icon_zoom {
+
+         position: absolute;
+         top: 5px;
+         left: 9px;
+     }
+
+
+
      #order_cont>section:nth-child(4)>div {
 
-
-
          position: relative;
-        bottom: -226px;
+         bottom: -200px;
 
      }
+
+     #menu>div.hr.hidden {
+         position: absolute;
+         bottom: 150px;
+
+     }
+
  }
 
  @media (min-width: 2559px) and (max-width: 4600px) {
@@ -2452,20 +2408,6 @@
          font-size: 18px;
      }
 
-
-
-     .bluebutton {
-         width: 174px;
-         height: 34px;
-         padding: 0;
-
-     }
-
-     .bluebutton_big {
-         width: 174px;
-         height: 34px;
-         padding: 0;
-     }
 
      .buttons_wrapper {
          width: 370px;
@@ -2581,8 +2523,21 @@
          bottom: -300px;
 
      }
-     .links_wrapper {
-   
-    margin-top: 149px;
-}
+
+     #icon_zoom {
+
+         position: absolute;
+         top: 5px;
+         left: 9px;
+     }
+
+     #menu>div.logo_wrapper.hidden>div.menu_item_wrapper.hidden {
+         height: 37px;
+     }
+
+     .menu_items_wrapper {
+
+         height: 730px;
+
+     }
  }
